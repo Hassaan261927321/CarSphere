@@ -1,0 +1,115 @@
+{
+  "intents": [
+    {
+      "intent": "search.cars",
+      "examples": [
+        "Show me Toyota cars under 30 lakhs",
+        "Find Honda Civic 2022",
+        "List active Suzuki auctions",
+        "I want a petrol car with automatic transmission",
+        "Looking for diesel SUVs under 50 lakhs",
+        "Show me cars with mileage less than 50000 km",
+        "Find white Honda Civic 2021",
+        "Cars between 20 and 40 lakhs",
+        "Search for hybrid vehicles",
+        "Any Toyota with low mileage?",
+        "Show me black cars in Karachi",
+        "Find Corolla 2019 with automatic",
+        "I need a car with engine 1.5L",
+        "Cars under 15 lakhs in Lahore",
+        "Used Honda cars 2018-2020",
+        "Which Toyotas have the lowest mileage?",
+        "Show me red cars under 25 lakhs",
+        "Find me a Suzuki Swift 2021 petrol",
+        "Available cars in Islamabad under 30 lakhs",
+        "I want a fuel efficient car",
+        "Cars with sunroof?",
+        "Show me BMW under 1 crore",
+        "Looking for family car with low mileage",
+        "Toyota Yaris automatic 2022",
+        "Honda City 2020 diesel?",
+        "Kia Sportage petrol 2019",
+        "Hyundai Elantra under 40 lakhs",
+        "Audi A4 automatic",
+        "Mercedes C class diesel",
+        "Cars with less than 20000 km",
+        "Cars older than 2018?",
+        "New model cars 2023",
+        "Cars with price 25 to 35 lakhs",
+        "White cars with automatic transmission",
+        "SUVs under 60 lakhs",
+        "Sedans with petrol engine",
+        "Find me a car for daily commute"
+      ]
+    },
+    {
+      "intent": "find.mechanic",
+      "examples": [
+        "Find a mechanic near me",
+        "I need a car service",
+        "Search for verified mechanics in Lahore",
+        "Where can I find a mechanic for engine repair?",
+        "Need a mechanic for oil change",
+        "Best mechanic in Karachi",
+        "Find workshop near Islamabad",
+        "Car repair shop near me"
+      ]
+    },
+    {
+      "intent": "check.bid",
+      "examples": [
+        "What's the current bid on Toyota Corolla?",
+        "Highest bid for Honda Civic",
+        "Show me bid status for Suzuki Swift",
+        "How much is the bid on Kia Sportage?",
+        "Current auction price for Yaris",
+        "Bid amount for Hyundai"
+      ]
+    },
+    {
+      "intent": "search.parts",
+      "examples": [
+        "Find brake pads",
+        "Search for engine oil",
+        "I need spare parts for Corolla",
+        "Buy car battery",
+        "Air filter price",
+        "Headlight for Civic"
+      ]
+    },
+    {
+      "intent": "greeting",
+      "examples": ["Hello", "Hi", "Hey", "Good morning", "Good evening", "Hi there", "Hello bot"]
+    },
+    {
+      "intent": "thanks",
+      "examples": ["Thanks", "Thank you", "Great", "Awesome", "Perfect", "Nice"]
+    }
+  ],
+  "entities": [
+    {
+      "entity": "carMake",
+      "examples": ["Toyota", "Honda", "Suzuki", "Kia", "Hyundai", "Audi", "BMW", "Mercedes", "Ford", "Mazda", "Nissan", "Chevrolet", "Daihatsu"]
+    },
+    {
+      "entity": "carModel",
+      "examples": ["Corolla", "Civic", "Swift", "Sportage", "Yaris", "City", "Elantra", "A4", "C Class", "3 Series", "Fiesta", "Mira", "Cultus", "Wagon R", "Alto"]
+    },
+    {
+      "entity": "fuelType",
+      "examples": ["petrol", "diesel", "hybrid", "electric", "CNG", "gasoline"]
+    },
+    {
+      "entity": "transmission",
+      "examples": ["automatic", "manual", "CVT", "auto", "standard", "stick shift"]
+    },
+    {
+      "entity": "color",
+      "examples": ["white", "black", "silver", "red", "blue", "grey", "gray", "green", "yellow", "orange", "brown", "gold", "maroon"]
+    },
+    {
+      "entity": "location",
+      "examples": ["Karachi", "Lahore", "Islamabad", "Rawalpindi", "Peshawar", "Quetta", "Multan", "Faisalabad", "Gujranwala", "Sialkot"]
+    }
+  ]
+}
